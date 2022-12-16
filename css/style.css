@@ -1,0 +1,21 @@
+/*PRIMARY*/
+/*SECONDARY*/
+body {
+  font-family: "Kumbh sans", sans-serif;
+  font-weight: 400;
+  line-height: 1;
+  color: #2d3248; }
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  background-color: #6fb6dd; }

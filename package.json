@@ -1,0 +1,22 @@
+{
+  "name": "profile-card-component-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Profile card component coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/D-Jovanovic/profile-card-component.git"
+  },
+  "author": "Damjan Jovanovic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/D-Jovanovic/profile-card-component/issues"
+  },
+  "homepage": "https://github.com/D-Jovanovic/profile-card-component#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
