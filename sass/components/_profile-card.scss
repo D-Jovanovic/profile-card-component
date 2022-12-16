@@ -1,25 +1,50 @@
 .container {
   position: relative;
   margin: 10rem auto;
-  width: 80rem;
+  width: 50rem;
   height: 60rem;
   border: 1px solid red;
 
   &__img {
     // border: 1px solid green;
-    height: 30%;
+    // height: 30%;
+    height: 20rem;
     background-image: url(/images/bg-pattern-card.svg);
   }
 
-  &__user-name {
+  &__user {
     background-color: #fff;
-    height: 50%;
-    // border: 1px solid black;
+    //height: 50%;
+    height: 20rem;
+    //border: 1px solid black;
+    //padding: 10rem;
+    text-align: center;
+    padding-top: 8rem;
+    border-bottom: 2px solid $secondary;
+
+    &--name {
+      font-size: 2.6rem;
+      font-weight: 700;
+      margin-right: 3px;
+    }
+
+    &--age {
+      font-size: 2.6rem;
+      font-weight: 400;
+      color: $primary-2;
+    }
+
+    &--city {
+      display: block;
+      font-size: 1.6rem;
+      font-weight: 400;
+      color: $secondary;
+    }
   }
 
   .profile-img {
     position: absolute;
-    top: 30%;
+    top: 20rem;
     left: 50%;
     transform: translate(-50%, -50%);
 
