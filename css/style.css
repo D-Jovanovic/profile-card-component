@@ -18,13 +18,17 @@ html {
 
 body {
   box-sizing: border-box;
-  background-color: #19a2ae; }
+  background-color: #19a2ae;
+  background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: bottom 50vh right 50vw, top 50vh left 50vw; }
 
 .container {
   position: relative;
   margin: 10rem auto;
   width: 45rem;
-  border: 1px solid red; }
+  border-radius: 1.5rem;
+  overflow: hidden; }
   .container__img {
     height: 20rem;
     background-image: url(/images/bg-pattern-card.svg); }
@@ -69,3 +73,17 @@ body {
       box-sizing: border-box;
       border-radius: 10000px;
       border: 5px solid #fff; }
+
+.attribution {
+  position: fixed;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 12px;
+  text-align: center;
+  max-width: 100%; }
+  .attribution a {
+    color: #3e52a3;
+    text-decoration: none;
+    font-weight: 600; }
