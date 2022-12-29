@@ -4,4 +4,4 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ![Design preview for the Profile card component coding challenge](/design/solution.jpg)
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [LIVE](https://profie-preview-jovanovic.netlify.app/)
